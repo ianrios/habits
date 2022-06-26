@@ -1,8 +1,4 @@
-import * as WebBrowser from 'expo-web-browser';
-import { StyleSheet, TouchableOpacity } from 'react-native';
-
-import Colors from '../constants/Colors';
-import { MonoText } from './StyledText';
+import { StyleSheet } from 'react-native';
 import { Text, View } from './Themed';
 
 export default function EditScreenInfo() {
@@ -24,12 +20,6 @@ export default function EditScreenInfo() {
         </Text>
       </View>
     </View>
-  );
-}
-
-function handleHelpPress() {
-  WebBrowser.openBrowserAsync(
-    'https://docs.expo.io/get-started/create-a-new-app/#opening-the-app-on-your-phonetablet'
   );
 }
 

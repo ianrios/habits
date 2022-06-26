@@ -17,7 +17,7 @@ import NotFoundScreen from '../screens/NotFoundScreen';
 import MainScreen from '../screens/MainScreen';
 import ActiveScreen from '../screens/ActiveScreen';
 import CompletedScreen from '../screens/CompletedScreen';
-import ArchivedScreen from '../screens/ArchivedScreen';
+// import ArchivedScreen from '../screens/ArchivedScreen';
 import { RootStackParamList, RootTabParamList, RootTabScreenProps } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
 
@@ -66,7 +66,7 @@ function BottomTabNavigator() {
       }}>
       <BottomTab.Screen
         name="Main"
-        component={TabOneScreen}
+        component={MainScreen}
         options={({ navigation }: RootTabScreenProps<'Main'>) => ({
           title: 'Main',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
