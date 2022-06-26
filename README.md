@@ -6,7 +6,11 @@ Created with React Native using Expo
 
 ## Info
 
-[Google Doc](https://docs.google.com/document/d/1q4W26mz0dd_pOP3PH3_PAZ7AsJeMDXuR6_2urnUQ9Sw/edit?usp=sharing)
+[Google Doc MVP](https://docs.google.com/document/d/1q4W26mz0dd_pOP3PH3_PAZ7AsJeMDXuR6_2urnUQ9Sw/edit?usp=sharing)
+
+[GitHub Backlog](https://github.com/users/ianrios/projects/1/)
+
+[Learn about react native](https://reactnative.dev/docs/components-and-apis)
 
 ## Maintaining
 
